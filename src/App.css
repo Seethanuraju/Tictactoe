@@ -1,0 +1,36 @@
+.main{
+  height:100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(64, 177, 177);
+}
+.board{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 2px;
+  column-gap: 2px;
+}
+.block{
+  height: 100px;
+  width: 100px;
+  background-color: rgb(174, 118, 33);
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+}
+#result{
+  font-size: 30px;
+}
